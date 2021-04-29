@@ -1,10 +1,10 @@
 
 public class Main {
-
+	//main
 	public static void main(String[] args) {
 		
-		Course cSharp = new Course(1,"C#+Angular","Kampımız 2 ay surecek.","Engin Demirog","50");
-		Course java = new Course(2,"Java+React","Kampımız 2 ay surecek.","Engin Demirog","0");
+		Course cSharp = new Course(1,"C#+Angular","KampÃ½mÃ½z 2 ay surecek.","Engin Demirog","50");
+		Course java = new Course(2,"Java+React","KampÃ½mÃ½z 2 ay surecek.","Engin Demirog","0");
 		
 		CourseManager myCourseManager = new CourseManager();
 		myCourseManager.addToMyCourses(java);
