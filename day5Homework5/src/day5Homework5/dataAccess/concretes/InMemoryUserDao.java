@@ -15,7 +15,7 @@ public class InMemoryUserDao implements UserDao{
 		
 		this.userList.add(user);
 		this.emailList.add(user.getEmail());
-		System.out.println("Hibernate ile eklendi: " + user.getFirstName());
+		System.out.println("InMemory ile eklendi: " + user.getFirstName());
 		
 	}
 
